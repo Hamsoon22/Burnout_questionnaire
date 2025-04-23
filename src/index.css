@@ -1,0 +1,80 @@
+.burnout-container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-family: sans-serif;
+  }
+  
+  .burnout-main {
+    padding: 1rem 0;
+  }
+  
+  .burnout-section {
+    background: #f3f4f6;
+    border-radius: 0.75rem;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .burnout-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+  
+  .burnout-table th,
+  .burnout-table td {
+    border: 1px solid #ccc;
+    padding: 0.4rem;
+    text-align: center;
+  }
+  
+  .burnout-table td:nth-child(2),
+  .burnout-table th:nth-child(2) {
+    text-align: left;
+  }
+  
+  .burnout-button-center {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .burnout-button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .burnout-button:hover {
+    background-color: #333;
+  }
+  
+  .burnout-result-box {
+    margin-top: 1rem;
+    background: #eef2ff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .burnout-result-text {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .burnout-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .burnout-instruction {
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+  }
+  
