@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Hamsoon22/Burnout_questionnaire.git/static/css/main.b1e06a19.css",
+    "main.js": "/Hamsoon22/Burnout_questionnaire.git/static/js/main.ac162927.js",
+    "index.html": "/Hamsoon22/Burnout_questionnaire.git/index.html",
+    "main.b1e06a19.css.map": "/Hamsoon22/Burnout_questionnaire.git/static/css/main.b1e06a19.css.map",
+    "main.ac162927.js.map": "/Hamsoon22/Burnout_questionnaire.git/static/js/main.ac162927.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1e06a19.css",
+    "static/js/main.ac162927.js"
+  ]
+}
