@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Hamsoon22/Burnout_questionnaire.git/static/css/main.b1e06a19.css",
-    "main.js": "/Hamsoon22/Burnout_questionnaire.git/static/js/main.575f4a2b.js",
-    "index.html": "/Hamsoon22/Burnout_questionnaire.git/index.html",
-    "main.b1e06a19.css.map": "/Hamsoon22/Burnout_questionnaire.git/static/css/main.b1e06a19.css.map",
-    "main.575f4a2b.js.map": "/Hamsoon22/Burnout_questionnaire.git/static/js/main.575f4a2b.js.map"
+    "main.css": "/Burnout_questionnaire/static/css/main.65b9c6c2.css",
+    "main.js": "/Burnout_questionnaire/static/js/main.2e53af56.js",
+    "index.html": "/Burnout_questionnaire/index.html",
+    "main.65b9c6c2.css.map": "/Burnout_questionnaire/static/css/main.65b9c6c2.css.map",
+    "main.2e53af56.js.map": "/Burnout_questionnaire/static/js/main.2e53af56.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1e06a19.css",
-    "static/js/main.575f4a2b.js"
+    "static/css/main.65b9c6c2.css",
+    "static/js/main.2e53af56.js"
   ]
 }

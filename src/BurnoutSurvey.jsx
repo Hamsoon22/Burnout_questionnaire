@@ -33,10 +33,10 @@ export default function BurnoutSurvey() {
     "어떤 학생들에게는 무슨 일이 일어났는지 별로 신경 쓰지 않는다.",
     "사람들과 직접 대하면서 일하는 것에 스트레스를 받는다.",
     "학생들과 쉽게 편안한 분위기를 만들 수 있다.",
-    "학생들과 친밀하게 일하고 나면 흐뭇해진다.", 
+    "학생들과 친밀하게 일하고 나면 흐뭇해진다.",
     "직업을 통해 가치 있는 많은 것들을 성취해왔다.",
-    "한계에 다다른 느낌이 든다.", 
-    "직장에서 감정적인 문제들을 매우 침착하게 다룬다.", 
+    "한계에 다다른 느낌이 든다.",
+    "직장에서 감정적인 문제들을 매우 침착하게 다룬다.",
     "학생들이 어떨 때는 자신들의 문제들에 대해 나를 비난하고 있다고 느낀다."
   ];
 
@@ -89,30 +89,19 @@ export default function BurnoutSurvey() {
             (0: 전혀없다, 1: 1년에 2-3회 또는 그 미만, 2: 한 달에 한 번 또는 그 미만,
             3: 한 달에 2-3회, 4: 일주일에 1회 정도, 5: 일주일에 2-3회, 6: 매일)
           </p>
-          <div className="burnout-overflow">
-            <table className="burnout-table">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>질문지</th>
-                  {labels.map((label, i) => (
-                    <th key={i}>{i}<br />{label}</th>
-                  ))}
-                </tr>
-              </thead>
-              <tbody>
-                {questions.map((q, idx) => (
-                  <tr key={idx}>
-                    <td>{idx + 1}</td>
-                    <td>{q}</td>
-                    {labels.map((_, i) => (
-                      <td key={i}><input type="radio" name={`q${idx}`} value={i} /></td>
-                    ))}
-                  </tr>
+          {questions.map((q, idx) => (
+            <div key={idx} className="burnout-question-card">
+              <h3>{idx + 1}. {q}</h3>
+              <div className="burnout-options">
+                {labels.map((label, i) => (
+                  <label key={i} className="burnout-option">
+                    <input type="radio" name={`q${idx}`} value={i} />
+                    {i} - {label}
+                  </label>
                 ))}
-              </tbody>
-            </table>
-          </div>
+              </div>
+            </div>
+          ))}
           <div className="burnout-button-center">
             <button className="burnout-button" onClick={handleSubmit}>결과 보기</button>
           </div>
