@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Burnout_questionnaire/static/css/main.65b9c6c2.css",
-    "main.js": "/Burnout_questionnaire/static/js/main.084b02ae.js",
+    "main.js": "/Burnout_questionnaire/static/js/main.6d6dc241.js",
     "index.html": "/Burnout_questionnaire/index.html",
     "main.65b9c6c2.css.map": "/Burnout_questionnaire/static/css/main.65b9c6c2.css.map",
-    "main.084b02ae.js.map": "/Burnout_questionnaire/static/js/main.084b02ae.js.map"
+    "main.6d6dc241.js.map": "/Burnout_questionnaire/static/js/main.6d6dc241.js.map"
   },
   "entrypoints": [
     "static/css/main.65b9c6c2.css",
-    "static/js/main.084b02ae.js"
+    "static/js/main.6d6dc241.js"
   ]
 }
